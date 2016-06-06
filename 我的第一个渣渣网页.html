@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>我的第一很差劲的网页</title>
+	<style type="text/css">
+	h1{
+		font-size: 60px;
+		font-style: normal;
+	}
+	p{
+		text-indent: 2em;
+	}
+	span{
+		font-size: 40px;
+		color: red;
+	}
+	div{
+		border: 1px black solid;
+		height: 300px;
+		width: 300px;
+		float: right;
+	}
+	address{
+		font-size: 20px;
+		font-style: italic;
+		color: yellow;
+	}
+	
+	</style>
+</head>
+<body background="C:/Users/MaFan/Desktop/网页背景.jpg">
+<bgsound src="E:/酷狗/韩安旭 - 多幸运.mp3" loop=-1>
+
+<marquee height=50  direction=right  behavior=alternate >
+	<font face="隶书" size="30px">就要美美哒</font>
+</marquee>
+	 <p margin=30px>多少人曾爱慕你年轻时的容颜，可是谁又岁月的变迁，你不知道他们为何离去，就像你不知道这就是结局，十佳学子，棒棒哒，你是最好的<br/>你是<span>嘴馋的知识</span>，遇到不会的你可以百度一下<a href="www.baidu.com">百度一下</a>在没有遇到你之前我的人生是快乐的，但是遇到你之后感觉整个人生都变的惠安不看，我们在<address>西安邮电大学</address>相识,那时我们的相遇是很具有童话意义的</p>
+<hr/>
+	 <div>
+	 	<ol>
+	 	<p >这是一些歌曲</p>
+	 		<li>我就我</li>
+	 		<li>如果有来生</li>
+	 		<li>暖暖</li>
+	 	</ol>
+	 	<p>这是一些歌手</p>
+	 	<ul>
+	 		<li>林俊杰</li>
+	 		<li>谭维维</li>
+	 		<li>张国荣</li>
+	 	</ul>
+	 </div>
+	 <form name="iForm" method="post" action="save.php">
+	 你是否喜欢游泳？<br/>
+	 <input type="radio" name="radioLove" value="喜欢" checked="checked">喜欢</input><!--radioLove是指每次只能选一个-->
+	 <input type="radio" name="radioLove" value="一般" >一般</input>
+	 <input type="radio" name="radioLove" value="不喜欢">不喜欢</input>
+	 <input type="radio" name="radioLove" value="特别不喜欢">特别不喜欢</input>
+	 </form>
+	 <form name="iForm">
+	 	<label>爱好：</label>
+	 	<select>
+	 		<option value="读书" selected="selected">读书</option>
+	 		<option value="唱歌">唱歌</option>
+	 		<option value="跳舞">跳舞</option>
+	 		<option value="篮球">篮球</option>
+	 		<option value="旅游">旅游</option>
+	 	</select>
+	 </form>
+	 <form name="myForm">
+	 	<label>爱好：</label>
+	 	<select multiple="multiple">
+	 		<option value="读书">读书</option>
+	 		<option value="唱歌">唱歌</option>
+	 		<option value="跳舞">跳舞</option>
+	 		<option value="篮球">篮球</option>
+	 		<option value="旅游">旅游</option>
+	 		<option value="足球">足球</option>
+	 		<option value="吉他">吉他</option>
+	 		<option value="小提琴">小提琴</option>
+	 		<option value="英雄联盟">英雄联盟</option>
+	 	</select>
+	 </form>
+	 <form method="post" action="save.php">
+	 <label for="ny">姓名：</label>
+	 <input type="text" value=" " name="myName"></input>
+	 <input type="reset" value="重置" name="resetBtn">
+	 <br/>
+ 	 <label for="id">学号：</label>
+	 <input type="text" value=" " name="id">
+	 <input type="reset" value="重置" name="resetBtn">	
+	 <br/>
+	 <label for="class">班级:</label> 
+	 <select multiple="multiple">
+	 	<option value="通工1401">通工1401</option>
+	 	<option value="通工1402">通工1402</option>
+	 	<option value="通工1403">通工1403</option>
+	 	<option value="通工1404">通工1404</option>
+	 	<option value="通工1405">通工1405</option>
+	 	<option value="通工1406">通工1406</option>
+	 	<option value="通工1407">通工1407</option>
+	 	<option value="通工1408">通工1408</option>
+	 	<option value="通工1409">通工1409</option>
+	 	<option value="通工1410">通工1410</option>
+	 	<option value="通工1411">通工1411</option>
+	 	<option value="通工1412">通工1412</option>
+	 	<option value="通工1413">通工1413</option>
+	 	<option value="通工1414">通工1414</option>
+	 	<option value="通工1415">通工1415</option>
+
+	 </select>	
+	 </form>
+<img src="E:/桌面壁纸/29b4ed3af1b92e0d7a1fc7cd9fe8ce4d.jpeg" width="300" height="200" >
+</body>
+</html>
